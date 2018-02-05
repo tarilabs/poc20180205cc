@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+  <configuration>
+    <property key="org.kie.dmn.profiles.poc20180205cc" value="org.kie.dmn.temp.poc20180205cc.POC20180205CCDMNProfile"/>
+  </configuration>
+  <kbase name="KBaseCalled" default="true" includes="KBaseCaller">
+    <ksession name="KSessionCalled" default="true" />
+  </kbase>
+</kmodule>
